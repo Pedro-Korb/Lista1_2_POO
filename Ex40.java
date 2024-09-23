@@ -33,11 +33,11 @@ public class Ex40 {
 		}
 		else if (average == 10)
 		{
-			System.out.println("Aprovado por distinção!");
+			System.out.println("Aprovado por distinção! ");
 		}
 		else
 		{
-			System.out.println("Média inválida!");
+			System.out.println("Média inválida! ");
 		}
 		
 		input.close();
