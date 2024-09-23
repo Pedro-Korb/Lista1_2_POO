@@ -7,13 +7,14 @@ public class Ex019 {
 		Scanner entrada = new Scanner(System.in);
 		
 		System.out.println("Digite M ou F: ");
-		char sexo = entrada.nextLine().charAt(0);
+		String sexo = entrada.nextLine().toUpperCase();
 		
-		if (sexo == 'F' || sexo == 'f')
+		
+		if (sexo.equals("F"))
 		{
 			System.out.println("Sexo: Feminino");
 		}
-		else if (sexo == 'M' || sexo == 'm')
+		else if (sexo.equals("M"))
 		{
 			System.out.println("Sexo: Masculino");
 		}
