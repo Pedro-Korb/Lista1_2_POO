@@ -12,11 +12,11 @@ public class Ex36 {
 
 		if (ano % 4 == 0)
 		{
-			System.out.println("O ano " + ano + " é bissesto.");
+			System.out.println("O ano " + ano + " é bissesto. ");
 		}
 		else
 		{
-			System.out.println("O ano " + ano + " não é bissesto.");
+			System.out.println("O ano " + ano + " não é bissesto. ");
 		}
 
 		input.close();
